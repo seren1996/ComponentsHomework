@@ -1,0 +1,5 @@
+<input [(ngModel)] = "inputText" type="text">
+<p>{{inputText}}</p>
+<button (click)="buttonClicked($event)">Send</button>
+<app-child [childMessage]="inputText"></app-child>
+
